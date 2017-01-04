@@ -1,0 +1,4 @@
+# Start options for homebridge when it is started by systemd
+# This script came as part of homebridge-simplex
+HOMEBRIDGE_OPTS='-U /var/homebridge'
+

@@ -1,0 +1,25 @@
+{
+    "bridge" :
+    {
+        "name"     : "Homebridge Simplex",
+        "username" : "CD:22:3D:E3:CE:31",
+        "port"     :  51826,
+        "pin"      : "031-45-154"
+    },
+
+    "description" : "Homebridge Simplex Config file",
+
+    "accessories" :
+    [
+        {
+            "accessory"       : "SimplexLock",
+            "name"            : "Frontdoor",
+            "unlockPin"       :  11,
+            "lockPin"         :  12,
+        }
+    ],
+
+    "platforms" :
+    [
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name"         : "homebridge-simplex",
+    "version"      : "0.9.0",
+    "description"  : "Raspberry Pi plugin for Homebridge",
+    "license"      : "none",
+    "keywords"     : 
+    [
+        "homebridge-plugin",
+        "simplex"
+    ],
+    "repository"   :
+    {
+    },
+    "engines"      :
+    {
+        "node"        : ">=4.3.2",
+        "homebridge"  : ">=0.4.16"
+    },
+    "dependencies" :
+    {
+        "rpio"        : ">=0.9.13"
+    } 
+}

@@ -1,0 +1,22 @@
+
+# This file came with homebridge-simplex
+#
+# It is the systemd file that takes care of
+# starting end stopping the homebridge server
+
+[Unit]
+Description=Homebridge for Simplex locks 
+Documentation=https://github.com/simplexjunkie/homebridge-simplex
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+User=homebridge
+EnvironmentFile=/etc/default/homebridge
+ExecStart=/usr/bin/homebridge $HOMEBRIDGE_OPTS
+Restart=on-failure
+RestartSec=15
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
