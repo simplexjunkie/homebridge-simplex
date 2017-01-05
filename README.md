@@ -10,7 +10,7 @@ Release date: 20170101
 ## homebridge-simplex, a short introduction
 homebridge-simplex is a way to use your Simplex locks with Homekit. It is also the name of a plugin for homebridge on a Raspberry Pi.
 
-The Simplex locks are sold in Europe in various variations and under different names. In The Netherlands they are sold under the names Flexeria, CESeasy and Telelock. In other European countries they are sold under the names eWizz and CESeasy.
+The Simplex locks are sold in Europe in various variations and under different names. In The Netherlands they are sold under the names Flexeria, CESeasy and Telelock. In other European countries they are sold under the names eWizz (UK) and CESeasy.
 
 homebridge-simplex is made by a hobbyist to be used by hobbyists. It is free available at github (https://github.com/simplexjunkie/homebridge-simplex) to use, change and improve.
 
