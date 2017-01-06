@@ -147,7 +147,7 @@ static domain_name_servers=192.168.0.1
 
   `cd homebridge-simplex`
 
-  `sudo tar -C / -xf hombridge-simplex`
+  `sudo tar -C / -xf homebridge-simplex.tar`
 
 *	Configure homebridge-simplex by following the chapter ‘Configuration of homebridge-simplex’.
 *	Activate the start of homebridge at boot time with the commands:
