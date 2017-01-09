@@ -115,7 +115,7 @@ static domain_name_servers=192.168.0.1
 
   `cd /usr/lib/node_modules/homebridge`
 
-  `sudo nmp install --unsafe-perm bignum`
+  `sudo npm install --unsafe-perm bignum`
 
   `cd /usr/lib/node_modules/hap-nodejs/node_modules/mdns`
 
@@ -204,7 +204,7 @@ The configuration of homebridge-simplex needs to be done in the config.json file
            "accessory"       : "SimplexLock",
            "name"            : "Frontdoor",
            "unlockPin"       :  11,
-           "lockPin"         :  12,
+           "lockPin"         :  12
        }
    ],
 
