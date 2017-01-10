@@ -15,7 +15,7 @@
             "accessory"       : "SimplexLock",
             "name"            : "Frontdoor",
             "unlockPin"       :  11,
-            "lockPin"         :  12,
+            "lockPin"         :  12
         }
     ],
 
