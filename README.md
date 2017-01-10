@@ -323,7 +323,7 @@ If you have connected multiple Simplex Communication Interfaces to the extension
             "accessory"       : "SimplexLock",
             "name"            : "Frontdoor",
             "unlockPin"       :  11,
-            "lockPin"         :  12,
+            "lockPin"         :  12
         },
         {
             "accessory"       : "SimplexLock",
