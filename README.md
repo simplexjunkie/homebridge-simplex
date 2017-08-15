@@ -3,9 +3,9 @@
 Use your Simplex locks with Homekit
 </br></br>
 
-Version: 0.9.0
+Version: 0.9.1
 
-Release date: 20170101
+Release date: 20170815
 
 ## homebridge-simplex, a short introduction
 homebridge-simplex is a way to use your Simplex locks with Homekit. It is also the name of a plugin for homebridge on a Raspberry Pi.
@@ -75,7 +75,7 @@ Follow the steps below for (further) preparation of the Raspberry Pi and install
 *	Prepare your Raspberry Pi as in the previous chapter.
 *	It is a good idea to give the Raspberry Pi a fixed IP address because it will be used as a bridge. If you are not already logged in, login as user ‘pi’ and open /etc/dhcpd.conf for editing by executing the command:
 
-  `sudo nano /etc/dhhpcd.conf`
+  `sudo nano /etc/dhcpcd.conf`
 
 *	Add at the beginning of the file the following code. (Fill in your own IP addresses. Use for ip_address the CIDR notation.)
 
